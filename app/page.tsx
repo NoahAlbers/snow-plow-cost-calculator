@@ -98,7 +98,7 @@ export default function Home() {
 
   // equipment
   const [owned, setOwned] = useState(16);
-  const [loaderCost, setLoaderCost] = useState(150000);
+  const [loaderCost, setLoaderCost] = useState(250000);
   const [lifespan, setLifespan] = useState(10);
 
   // service
