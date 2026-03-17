@@ -107,11 +107,11 @@ export default function Home() {
   const [driveways, setDriveways] = useState(60000);
 
   // timing
-  const [minPerDriveway, setMinPerDriveway] = useState(5);
-  const [travelMin, setTravelMin] = useState(3);
+  const [minPerDriveway, setMinPerDriveway] = useState(4);
+  const [travelMin, setTravelMin] = useState(2);
 
   // driveway surface
-  const [gravelPct, setGravelPct] = useState(30);
+  const [gravelPct, setGravelPct] = useState(5);
 
   // overhead & insurance
   const [overheadPct, setOverheadPct] = useState(15);
